@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Kalori İhtiyacı Hesaplama - FitsPack</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><i class="fa-solid fa-medal"></i> FitsPack</a></div>
+                <ul class="links">
+                    <li><a href="workout.html">Antrenman Programı</a></li>
+                    <li><a href="recipes.html">Fit Tarifler</a></li>
+                    <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+                <a href="login.html" class="action_btn">Hadi Başlayalım!</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="workout.html">Antrenman Programı</a></li>
+                <li><a href="recipes.html">Fit Tarifler</a></li>
+                <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="login.html" class="action_btn">Hadi Başlayalım!</a></li>
+            </div>
+        </header>
+                <div class="bmr-calc anim">
+                    <h1>Kalori İhtiyacı Hesaplama</h1>
+                    <form id="kaloriForm">
+                        <label for="cinsiyet">Cinsiyet:</label>
+                        <select class="gender" id="cinsiyet" required>
+                            <option value="erkek">Erkek</option>
+                            <option value="kadın">Kadın</option>
+                        </select>
+
+                        <label for="yas">Yaş:</label>
+                        <input type="number" id="yas" required>
+
+                        <label for="boy">Boy (cm):</label>
+                        <input type="number" id="boy" required>
+
+                        <label for="kilo">Kilo (kg):</label>
+                        <input type="number" id="kilo" required>
+
+                        <label for="hareketlilik">Gün içi hareketlilik seviyesi:</label>
+                        <select id="hareketlilik" required>
+                            <option value="1.2">Çok az veya hiç egzersiz yok</option>
+                            <option value="1.375">Hafif egzersiz (haftada 1-3 gün)</option>
+                            <option value="1.55">Orta düzey egzersiz (haftada 3-5 gün)</option>
+                            <option value="1.725">Yüksek düzey egzersiz (haftada 6-7 gün)</option>
+                            <option value="1.9">Çok yüksek düzey egzersiz (fiziksel iş gibi)</option>
+                        </select>
+
+                        <label for="hedef">Hedef:</label>
+                            <select id="hedef" required>
+                                <option value="yag-yakmak">Yağ Yakmak</option>
+                                <option value="kilo-korumak">Kilo Korumak</option>
+                                <option value="kas-artirmak">Kas Kütlesi Artırmak</option>
+                            </select>
+                            <br>
+                        <input type="submit" value="Hesapla" class="calc-btn">
+                    </form>
+                
+                    <div id="sonuc"></div>
+                    
+                </div> 
+            
+        <script src="script.js"></script>
+    </body>
+</html>

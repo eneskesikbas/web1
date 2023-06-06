@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Fit Tarifler - FitsPack</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+            <div class="logo"><a href="index.html"><i class="fa-solid fa-medal"></i> FitsPack</a></div>
+            <ul class="links">
+                <li><a href="workout.html">Antrenman Programı</a></li>
+                <li><a href="recipes.html">Fit Tarifler</a></li>
+                <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Hadi Başlayalım!</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="workout.html">Antrenman Programı</a></li>
+                <li><a href="recipes.html">Fit Tarifler</a></li>
+                <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="login.html" class="action_btn">Hadi Başlayalım!</a></li>
+            </div>
+        </header>
+
+        <section class="items anim">
+            <div class="item">
+                <img src="resim/pankek.jpg" alt="">
+                <h4>Şekersiz Muzlu Pankek</h4>
+                <div class="popup-container">
+                    <label for="pankek-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="pankek-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Şekersiz Muzlu Pankek Tarifi</h4>
+                                <label for="pankek-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1 adet büyük boy muz</li>
+                                        <li>4 yemek kaşığı yulaf</li>
+                                        <li>1 adet büyük boy yumurta</li>
+                                        <li>1 çay kaşığı kabartma tozu</li>
+                                        <li>1 tutam tarçın</li>
+                                        <li>3 yemek kaşığı zeytinyağı</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Pancake malzemelerini Blender'a 
+                                            koyup pürüzsüz olana kadar karıştırın.</li>
+                                        <li>Orta boy bir tavayı ısıtın, yağlayın ve hazırladığınız karışımı 
+                                            dilediğiniz büyüklüklerde önlü arkalı olarak pişirin.</li>
+                                        <li>Hazırladığınız pancake'leri dilerseniz muz ve bal eklemesi 
+                                            yaparak servis edebilirsiniz. Afiyet olsun.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/omlet.jpg" alt="">
+                <h4>Beyaz Omlet</h4>
+                <div class="popup-container">
+                    <label for="omlet-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="omlet-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Beyaz Omlet Tarifi</h4>
+                                <label for="omlet-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>6 adet yumurta beyazı</li>
+                                        <li>6 adet cherry domates</li>
+                                        <li>1 dal biberiye</li>
+                                        <li>1 çimdik tuz</li>
+                                        <li>1 çimdik karabiber</li>
+                                        <li>1/2 demet maydanoz</li>
+                                        <li>3 adet mantar</li>
+                                        <li>1 tatlı kaşığı zeytinyağı</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Önceden ısıtılmış tavayı yağlayın. Arzuya göre omletinize 
+                                            mantar koymak isterseniz kızgın yağda mantarları soteleyin.</li>
+                                        <li>Yumurtanın beyazlarını çatal ile 2-3 kere karıştırdıktan 
+                                            sonra tavaya dökün.</li>
+                                        <li>Cherry domates ve biberiye yapraklarını omletin üzerine serpiştirin.</li>
+                                        <li>Tuz ve karabiber ile baharatlandırdıktan sonra kapağını 
+                                            kapatın ve kısık ateşte 5 dakika pişirin.</li>
+                                        <li>Dilerseniz üzerine ince kıyılmış maydanoz ilave ederek 
+                                            servis edebilirsiniz.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/ton.jpg" alt="">
+                <h4>Ton Balıklı Enginarlı Salata</h4>
+                <div class="popup-container">
+                    <label for="ton-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="ton-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Ton Balıklı Enginarlı Salata</h4>
+                                <label for="ton-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1/4 demet roka</li>
+                                        <li>1 avuç taze nane</li>
+                                        <li>1 adet havuç</li>
+                                        <li>4 adet cherry domates</li>
+                                        <li>2 adet salatalık</li>
+                                        <li>1 adet enginar</li>
+                                        <li>3 yemek kaşığı zeytinyağı</li>
+                                        <li>1 adet limonun suyu</li>
+                                    </ul>
+                                    <ul>
+                                        <li>1/2 çay kaşığı tuz</li>
+                                        <li>1 çay kaşığı tuz</li>
+                                        <li>1 çay kaşığı keten tohumu</li>
+                                        <li>2 avuç kıyılmış dereotu</li>
+                                        <li>160gr ton balığı</li>
+                                        <li>1 yemek kaşığı mayonez</li>
+                                        <li>1 tatlı kaşığı hardal</li>
+                                        <li>2 adet küçük boy kornişon turşu</li>
+                                        <li>1/2 adet kapya biber</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Enginarı soymadan önce salata sosunu hazırlamak için 
+                                            zeytinyağı, limon suyu, tuz, keten tohumu ve dereotunu bir 
+                                            kavanozda çalkalayarak karıştırın. Enginarı soyacak yardımıyla 
+                                            dilimleyin ve ardından salata sosundan üzerine gezdirip 
+                                            kenarda bekletin.</li>
+                                        <li>Ton balığını bir kaseye alın. Üzerine mayonez, hardal, 
+                                            limon suyu, limon kabuğu rendesi, kornişon turşu, 
+                                            közlenmiş kapya biber ve dereotunu ilave edip güzelce karıştırın.</li>
+                                        <li>Lavaşı küçük üçgenler olacak şekilde kesin. Bir kasede 
+                                            zeytinyağı ve toz kırmızı biberi karıştırıp lavaşların üzerine 
+                                            fırça yardımıyla sürün. Tavada önlü arkalı 3-4 dakika kızartın.</li>
+                                        <li>Akdeniz yeşilliği, roka, cherry domates, salatalık, 
+                                            havuç ve taze naneyi  bir kasede karıştırıp servis tabağına alın.</li>
+                                        <li>Üzerine enginar dilimleri ve ton balıklı karışımı ekleyip 
+                                            salata sosunu üzerlerine gezdirin.</li>
+                                        <li>Kıtır lavaşları da salatanın üzerine batırıp afiyetle tüketin!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resim/sezar.jpg" alt="">
+                <h4>Tavuklu Sezar Salata</h4>
+                <div class="popup-container">
+                    <label for="sezar-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="sezar-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Tavuklu Sezar Salata Tarifi</h4>
+                                <label for="sezar-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>100gr tavuk göğsü</li>
+                                        <li>10 adet kruton</li>
+                                        <li>3-4 dilim parmesan peyniri</li>
+                                        <li>1/2 adet marul</li>
+                                        <li>2 yemek kaşığı mayonez</li>
+                                        <li>1 tatlı kaşığı hardal</li>
+                                        <li>1 diş sarımsak</li>
+                                        <li>1/4 adet limon</li>
+                                        <li>1/2 çay kaşığı tuz</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Bir kaseye ezdiğiniz sarımsağı alın.</li>
+                                        <li>Mayonez ve hardalı da ekleyin.</li>
+                                        <li>Güzelce karıştın.</li>
+                                        <li>Kızdırdığınız tavaya tavukları ekleyin. 
+                                            2'şer dakika arkalı önlü kızartın.</li>
+                                        <li>Sos ile marulları buluşturun. Güzelce harmanlayın.</li>
+                                        <li>Krutonları ve tavukları da ekledikten sonra hazır. 
+                                            Parmesan peyniri ile servis edebilirsiniz.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/tavuk.jpg" alt="">
+                <h4>Tavuk Tabağı</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="tavuk-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="tavuk-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Tavuk Tabağı Tarifi</h4>
+                                <label for="tavuk-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1 adet tavuk göğsü</li>
+                                        <li>1 adet kapya biber</li>
+                                        <li>1 tatlı kaşığı soya sosu</li>
+                                        <li>5 yemek kaşığı zeytinyağı</li>
+                                        <li>2 çay kaşığı tuz</li>
+                                        <li>1 çay kaşığı karabiber</li>
+                                        <li>1/5 adet karnabahar</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Karnabaharı hazırlamak için öncelikle karnabaharı 
+                                            rendenin kalın tarafıyla rendeleyin.</li>
+                                        <li>Bir tavaya alın ve üzerine zeytinyağı ilave edin. 
+                                            Kısık ateşte yumuşayana kadar 8-10 dakika kadar kavurun. 
+                                            Ardından tuz ve karabiberini atın ve karıştırıp ocaktan alın.</li>
+                                        <li>Yine bir tavanın içerisine zeytinyağını alın. 
+                                            Küp küp doğranmış tavuk göğsünü ilave edin.</li>
+                                        <li>5-6 dakika güzelce kavurduktan sonra biberlerini de 
+                                            ilave ederek kavurmaya devam edin.</li>
+                                        <li>Soya sosu, damak zevkinize göre tuz ve karabiber 
+                                            ilave ederek ocaktan alın.</li>
+                                        <li>Bir tabağın yarısına karnabaharı, diğer yarısına da 
+                                            tavukları koyun ve servis edin. Afiyetler olsun!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/makarna.jpg" alt="">
+                <h4>Diyet Makarna</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="makarna-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="makarna-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Diyet Makarna Tarifi</h4>
+                                <label for="makarna-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1/2 adet tam buğday unlu makarna</li>
+                                        <li>1 adet avokado</li>
+                                        <li>1 diş sarımsak</li>
+                                        <li>10 adet cherry domates</li>
+                                        <li>1/4 su bardağı mısır konservesi</li>
+                                        <li>2 çay kaşığı tuz</li>
+                                        <li>1/2 yemek kaşığı zeytinyağı</li>
+                                        <li>1/2 adet limon suyu</li>
+                                        <li>1/2 adet limon suyu</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Tencerede kaynayan suya 1 çay kaşığı 
+                                            tuz atın ve makarnaları 8-10 dakika kadar haşlayın</li>
+                                        <li>Haşlanan makarnaları süzüp derin bir kaseye alın. 
+                                            Makarnaya mısırları ve domatesleri yarıya bölerek ekleyin</li>
+                                        <li>Avokado, limon suyu, zeytinyağı ve 1 çay kaşığı tuzu derin 
+                                            bir kaseye ekleyin ve bir çatal yardımıyla malzemeleri ezerek püre haline getirin.</li>
+                                        <li>Püre avokado sosa rendelenmiş 1 diş sarımsağı ekleyin.
+                                            Kıyılmış fesleğenleri ekleyin ve güzelce karıştırın.</li>
+                                        <li>Avokadolu harcı makarnaya ekleyin. Tüm malzemeleri güzelce karıştırın. Afiyet olsun!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/tavuklu-makarna.jpg" alt="">
+                <h4>Tavuklu Makarna</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="tm-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="tm-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Tavuklu Makarna Tarifi</h4>
+                                <label for="tm-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1/2 paket burgu makarna</li>
+                                        <li>6 parça brokoli</li>
+                                        <li>1 adet kırmızı biber</li>
+                                        <li>1/2 adet küçük boy kabak</li>
+                                        <li>6 adet üzüm domates</li>
+                                        <li>1 adet tavuk bonfile</li>
+                                        <li>3 diş sarımsak</li>
+                                        <li>2 yemek kaşığı zeytinyağı</li>
+                                        <li>1/2 çay kaşığı beyaz biber</li>
+                                        <li>1 tatlı kaşığı tuz</li>
+                                        <li>10 adet fesleğen yaprağı</li>
+                                        <li>1 yemek kaşığı rendelenmiş parmesan peyniri</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Makarnayı kaynar haldeki tuzlu suya 
+                                            atın ve üzerinde yazan süreden 1 dakika daha az pişirin.</li>
+                                        <li>Kırmızı biberi ince ince kesin, kabağı ve 
+                                            tavuğu küp küp doğrayın, sarımsakları incecik kıyın.</li>
+                                        <li>Brokoli çiçeklerini kaynar haldeki suya atıp 2 dakika 
+                                            tutup çıkarın ve hemen soğuk suya atın.</li>
+                                        <li>Zeytinyağını tavada kızdırın, önce biberleri 
+                                            sonra kabakları ekleyip 2-3 dakika kadar soteleyin.</li>
+                                        <li>Sarımsak, brokoli ve domatesleri de ekleyip hızlı hızlı soteleyin.</li>
+                                        <li>Haşlanan makarnanın suyunu süzmeden önce 1/2 su bardağı kadar 
+                                            kısmını ayırın ve makarnayı süzün.</li>
+                                        <li>Küp küp doğradığınız tavuğu da tavaya alın ve hızlıca soteleyin.</li>
+                                        <li>Tavukların pembelikleri gidince, ayırdığınız makarna suyunu tavuk 
+                                            ve sebzelerin üzerine ekleyip, süzdüğünüz makarnayı da aynı tavaya alın.</li>
+                                        <li>Beyaz biberini de eleyip, bütün tatların birbirine geçmesi için 
+                                            1 dakika boyunca soteleyin.</li>
+                                        <li>Servis tabaklarına alıp üzerlerine taze fesleğen yapraklarını ve 
+                                            parmesan peynirini serpiştirin.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/karnabahar-pizza.jpg" alt="">
+                <h4>Karnabahar Tabanlı Pizza</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="kp-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="kp-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Karnabahar Tabanlı Pizza Tarifi</h4>
+                                <label for="kp-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>1 adet orta boy karnabahar</li>
+                                        <li>2 adet yumurta</li>
+                                        <li>1 paket labne</li>
+                                        <li>1 çay kaşığı tuz</li>
+                                        <li>1 çay kaşığı taze çekilmiş tane karabiber</li>
+                                        <li>2 yemek kaşığı domates salçası</li>
+                                        <li>1 çay bardağı ılık su</li>
+                                        <li>1 çay kaşığı kekik</li>
+                                        <li>1 adet kapya biber</li>
+                                        <li>100 gram siyah zeytin</li>
+                                        <li>3-4 yemek kaşığı konserve mısır</li>
+                                        <li>1 su bardağı rendelenmiş kaşar peyniri</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Karnabaharı çiçeklerine ayırın ve güzelce yıkadıktan 
+                                            sonra iyice ufalanacak şekilde rondodan çekin.</li>
+                                        <li>İçine labneyi, baharatları ve yumurtaları ekleyip güzelce karıştırın.</li>
+                                        <li>Hazırladığınız karnabaharlı harcı ikiye bölün ve birer 
+                                            yuvarlak oluşturacak şekilde yağlı kâğıt serilmiş bir 
+                                            fırın tepsisine dökün.Karnabahar tabanını önceden ısıtılmış 
+                                            200 derece fırında üstü hafifçe kızarana dek yaklaşık 
+                                            10 dakika kadar pişirin</li>
+                                        <li>Sürenin sonunda sırından alın ve bir kasede su, salça ve 
+                                            kekik karışımını hazırlayın ve karnabahar pizza tabanının üstüne yayın.</li>
+                                        <li>Üstüne de hazırladığınız malzemeleri serpiştirin ve son olarak 
+                                            kaşarı da serpip tekrar fırında verin.</li>
+                                        <li>Kaşarlar eriyip, malzemeler pişince yaklaşık 10 dakika sonra 
+                                            fırından alın ve sıcak sıcak servis edin. Afiyetler olsun!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/tavuk2.jpg" alt="">
+                <h4>Sarımsak Yağlı Tavuk</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="t2-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="t2-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Sarımsak Yağlı Tavuk Tarifi</h4>
+                                <label for="t2-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>4 adet tavuk göğsü</li>
+                                        <li>2 çay kaşığı İtalyan çeşnisi</li>
+                                        <li>1 yemek kaşığı zeytinyağı</li>
+                                        <li>1/2 su bardağı tavuk suyu</li>
+                                        <li>4 yemek kaşığı tereyağı</li>
+                                        <li>4-5 diş doğranmış sarımsak</li>
+                                        <li>2 yemek kaşığı taze kıyılmış maydanoz</li>
+                                        <li>Tuz ve Karabiber</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Tavuğun her tarafına İtalyan baharatı, 
+                                            tuz ve karabiber sürün. Zeytinyağını büyük 
+                                            bir tavada, orta ateşte ısıtın. Tavuğu altın 
+                                            rengi kahverengi olana ve iç sıcaklığı 75º'ye 
+                                            ulaşana kadar pişirin.</li>
+                                        <li>Önceden ısıtılmış aynı tavaya tavuk suyunu 
+                                            ekleyin ve birkaç dakika köpürmesine izin 
+                                            vererek tavayı temizleyin. Tereyağı ve 
+                                            sarımsağı ekleyin ve ipeksi bir sos oluşana 
+                                            kadar sürekli karıştırarak pişirin. Maydanozu 
+                                            ilave edin ve tereyağlı sosu üzerine kaşıkla 
+                                            dökerek tavuğu tavaya geri koyun.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/patlican.jpg" alt="">
+                <h4>Fırında Patlıcan</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="patlican-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="patlican-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Fırında Patlıcan Tarifi</h4>
+                                <label for="patlican-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>4 adet orta boy patlıcan</li>
+                                        <li>1 adet büyük boy kuru soğan</li>
+                                        <li>4 diş sarımsak</li>
+                                        <li>2 adet orta boy kırmızı biber</li>
+                                        <li>2 adet orta boy yeşil biber</li>
+                                        <li>3 adet orta boy domates</li>
+                                        <li>4 yemek kaşığı zeytinyağı</li>
+                                        <li>1 çay kaşığı tuz</li>
+                                        <li>1/2 çay kaşığı taze çekilmiş tane karabiber</li>
+                                        <li>2 dal taze kekik</li>
+                                        <li>1/2 tatlı kaşığı acı biber salçası</li>
+                                        <li>1/2 su bardağı sıcak su</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Uç kısımlarını kestiğiniz patlıcanların kabuklarını arzuya göre 
+                                            alacalı şekilde soyun.</li>
+                                        <li>Halka halka ya da iri parçalar halinde doğradığınız patlıcanları 
+                                            acı suyunun çıkması için tuzlu suda bekletin.</li>
+                                        <li>Kabuğunu soyduğunuz sarımsak ve domatesleri iri parçalar halinde kesin. 
+                                            Ortadan ikiye kesip çekirdekli kısımlarını çıkardığınız yeşil ve 
+                                            kırmızı biberleri yarım ay şeklinde doğrayın. Kuru soğanı 
+                                            ince ince piyazlık doğrayın.</li>
+                                        <li>Tuzlu suda bekleyen patlıcanların suyunu süzdürün. 
+                                            Duruladıktan sonra salata kurutucusunda ya da kağıt 
+                                            havlu yardımıyla fazla sularını alın.</li>
+                                        <li>Doğramış olduğunuz sebzeleri; zeytinyağı, tuz, taze çekilmiş 
+                                            tane karabiber ve ayıklanmış kekik yapraklarıyla harmanlayın.</li>
+                                        <li>Isıya dayanıklı fırın kabına aldığınız sebzelerin üzerine sıcak 
+                                            suyla karıştırdığınız acı biber salçasını gezdirin.</li>
+                                        <li>Önceden ısıtılmış 200 derece fırında 35-40 dakika pişirdikten 
+                                            sonra sade ya da arzu ettiğiniz et yemeklerinin yanında 
+                                            garnitür olarak sevdiklerinizle paylaşın.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/mantarli-tavuk.jpg" alt="">
+                <h4>Fırında Mantarlı Tavuk</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="mt-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="mt-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Fırında Mantarlı Tavuk Tarifi</h4>
+                                <label for="mt-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>2 adet tavuk but</li>
+                                        <li>2 adet soğan</li>
+                                        <li>10-15 adet kültür mantarı</li>
+                                        <li>1 adet havuç</li>
+                                        <li>2 diş sarımsak</li>
+                                        <li>1 tutam karabiber</li>
+                                        <li>1 çay kaşığı tuz</li>
+                                        <li>1 çorba kaşığı zeytinyağı</li>
+                                        <li>1 tatlı kaşığı soya sosu</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Fırınızı 175 derece, fansız programa ayarlayın.</li>
+                                        <li>Döküm tavanızın içini ölçülü zeytinyağı ile peçete yardımı ile yağlayın.</li>
+                                        <li>Tavukları yıkayın ve temizleyin.</li>
+                                        <li>Havuç ve soğanları gelişigüzel iri iri doğrayın.</li>
+                                        <li>Mantarları temizleyin ve bütün halde döküm tavanıza yerleştirin. 
+                                            Tavukları ve diğer sebzeleri de düzgünce yerleştirin.</li>
+                                        <li>Baharatları ve soya sosunu ekleyerek tavanın ağzını alüminyum folyo ile kapatın.</li>
+                                        <li>35-40 sonra yemeğiniz hazır, işte bu kadar, afiyet olsun!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="resim/beef.jpg" alt="">
+                <h4>Dana Güveç</h4>
+                <div class="popup-container">
+                    <label class="recipe-btn" for="beef-popup">Tarifi Gör</label>
+                    <input type="checkbox" id="beef-popup">
+                    <div class="popup">
+                        <div class="inner">
+                            <div class="title">
+                                <h4>Dana Güveç Tarifi</h4>
+                                <label for="beef-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                            </div>
+                            <div class="content">
+                                <div class="ingred">
+                                    <h5>Malzemeler</h5>
+                                    <ul>
+                                        <li>900gr dana eti</li>
+                                        <li>2 yemek kaşığı un</li>
+                                        <li>2 yemek kaşığı zeytinyağı</li>
+                                        <li>1/2 adet soğan</li>
+                                        <li>4 diş sarımsak</li>
+                                        <li>1 havuç</li>
+                                        <li>2 patates</li>
+                                        <li>2 su bardağı et suyu</li>
+                                        <li>1/4 fincan domates salçası</li>
+                                        <li>Defne yaprağı, kekik yaprağı, tuz ve karabiber</li>
+                                        <li>1 yemek kaşığı Worcestershire sos</li>
+                                    </ul>
+                                    <h5>Nasıl Yapılır?</h5>
+                                    <ul>
+                                        <li>Fırını 170 dereceye ayarlayın.</li>
+                                        <li>Sığır eti parçalarına her taraftan tuz ve karabiber serpin. 
+                                            Üzerine un serpin ve terbiyeli dana etini her tarafını 
+                                            kaplayacak şekilde fırına atın.</li>
+                                        <li>Zeytinyağını büyük bir Hollanda fırınında orta ateşte ısıtın. 
+                                            Sığır etini parçalar halinde her taraftan 3-4 dakika kızartın. 
+                                            Bu aşamada eti sonuna kadar pişirme konusunda endişelenmeyin. 
+                                            Kızarmış dana etini bir tabağa aktarın ve bir kenara koyun.</li>
+                                        <li>Soğan, sarımsak ve havuçları Hollanda fırınına ekleyin ve 
+                                            ara sıra karıştırarak 2-3 dakika veya hafifçe kızarana kadar pişirin.</li>
+                                        <li>Patatesleri, et suyunu, salçayı, defne yaprağını, kekiği ve 
+                                            Worcestershire sosunu ilave edin ve tencerenin dibindeki 
+                                            kızaran parçaları tahta bir kaşıkla sıyırın.</li>
+                                        <li>Karışımı kaynatın, karıştırın ve dana etini tencereye geri koyun. 
+                                            Hollanda fırınını örtün ve önceden ısıtılmış fırına aktarın.</li>
+                                        <li>Güveçte 2-2,5 saat veya dana eti çok yumuşayana kadar pişirin. 
+                                            Defne yaprağını çıkarın. Güveci tadın ve gerekirse ilave tuz ve 
+                                            karabiber ekleyin. Sıcak servis yapın. Afiyet olsun!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Bizimle İletişime Geç - FitsPack</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><i class="fa-solid fa-medal"></i> FitsPack</a></div>
+                <ul class="links">
+                    <li><a href="workout.html">Antrenman Programı</a></li>
+                    <li><a href="recipes.html">Fit Tarifler</a></li>
+                    <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+                <a href="login.html" class="action_btn">Hadi Başlayalım!</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="workout.html">Antrenman Programı</a></li>
+                <li><a href="recipes.html">Fit Tarifler</a></li>
+                <li><a href="bmr-calculator.html">Kalori İhtiyacı Hesaplama</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="login.html" class="action_btn">Hadi Başlayalım!</a></li>
+            </div>
+        </header>
+
+        <div class="login-form anim">
+            <div class="reg-wrapper">
+                <div class="form-box login">
+                    <h2>Bizimle İletişime Geç</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <input type="text" required>
+                            <label>Ad Soyad</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="fa-solid fa-message"></i>
+                            </span>
+                            <input type="text" required maxlength="150">
+                            <label>Mesajınız (Maks. 150)</label>
+                        </div>
+                        <button type="submit" class="btn">Gönder</button>
+                        <div class="login-register">
+                                <a href="index.html">Vazgeç</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
